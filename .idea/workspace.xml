@@ -9,11 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93aeb53-6477-4466-a2cb-d8e789d6b84b" name="Changes" comment="mvc패턴 기초">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ShareObjectApplicationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ShareObjectSessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/applicationView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/sessionView.jsp" afterDir="false" />
+    <list default="true" id="c93aeb53-6477-4466-a2cb-d8e789d6b84b" name="Changes" comment="mvc패턴 기초 - scope(request, session, application) 구분">
+      <change afterPath="$PROJECT_DIR$/src/eduForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EduServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MemberServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/EncDecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/vo/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gradeA.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gradeB.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gradeC.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gradeD.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/memberView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memberForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
         <option value="JSP file(HTML5)" />
       </list>
@@ -50,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -59,6 +68,14 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.61" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.61" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -157,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673624496498</updated>
-      <workItem from="1673624497728" duration="5083000" />
+      <workItem from="1673624497728" duration="9468000" />
     </task>
     <task id="LOCAL-00001" summary="mvc패턴 기초">
       <created>1673627011158</created>
@@ -166,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673627011158</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mvc패턴 기초 - scope(request, session, application) 구분">
+      <created>1673705084799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673705084799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mvc패턴 기초" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc패턴 기초" />
+    <MESSAGE value="mvc패턴 기초 - scope(request, session, application) 구분" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc패턴 기초 - scope(request, session, application) 구분" />
   </component>
 </project>
