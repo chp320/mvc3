@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVC 실습</title>
+    <style>
+        img {
+            width: 200px;
+            height: 150px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>구매하고자 하는 상품을 선택하십시오.</h1>
+    <hr>
+    <a href="/productServlet?pid=p001">
+      <img src="main/resources/images/apple.jpg" />
+    </a>
+    <a href="/productServlet?pid=p002">
+        <img src="main/resources/images/banana.jpg" />
+    </a>
+    <a href="/productServlet?pid=p003">
+        <img src="main/resources/images/hallabong.jpg" />
+    </a>
+    <hr>
+    <a href="/productServlet?pid=reset">장바구니 비우기</a>
+</body>
+</html>

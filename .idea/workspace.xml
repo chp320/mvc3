@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c93aeb53-6477-4466-a2cb-d8e789d6b84b" name="Changes" comment="mvc패턴 기초 - vo를 사용하여 request scope로 전달">
-      <change afterPath="$PROJECT_DIR$/src/calcForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CalcServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calcResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/errorResult.jsp" afterDir="false" />
+    <list default="true" id="c93aeb53-6477-4466-a2cb-d8e789d6b84b" name="Changes" comment="mvc패턴 기초 - request scope로 정보 전달">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/vo/ProductVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/banana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/hallabong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/productView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/productForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="JSP file(HTML5)" />
       </list>
     </option>
@@ -52,16 +55,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Artifacts",
+    "last_opened_file_path": "/Users/leo/IdeaProjects/mvc3/src/main/resources/images",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
@@ -167,7 +178,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673624496498</updated>
-      <workItem from="1673624497728" duration="11132000" />
+      <workItem from="1673624497728" duration="13829000" />
+      <workItem from="1673788597527" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="mvc패턴 기초">
       <created>1673627011158</created>
@@ -190,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673709979276</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mvc패턴 기초 - request scope로 정보 전달">
+      <created>1673786010241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673786010241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +230,7 @@
     <MESSAGE value="mvc패턴 기초" />
     <MESSAGE value="mvc패턴 기초 - scope(request, session, application) 구분" />
     <MESSAGE value="mvc패턴 기초 - vo를 사용하여 request scope로 전달" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc패턴 기초 - vo를 사용하여 request scope로 전달" />
+    <MESSAGE value="mvc패턴 기초 - request scope로 정보 전달" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc패턴 기초 - request scope로 정보 전달" />
   </component>
 </project>
