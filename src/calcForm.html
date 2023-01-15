@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+</head>
+<body>
+    <h2>계산할 두 개의 숫자와 연산자를 입력하세요.</h2>
+    <hr>
+    <form method="get" action="/calcServlet">
+        <input type="number" name="num1" required>
+        <!-- 연산 기호 선택 가능한 셀렉트 박스 -->
+        <select name="op">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">×</option>
+            <option value="division">÷</option>
+        </select>
+        <input type="number" name="num2">
+        <input type="submit" value="계산결과">
+    </form>
+</body>
+</html>
